@@ -206,11 +206,193 @@ section h2 {
     border-left: none;
 }
 
-#reasons .reason p{
+#reasons .reason p {
     text-align: center;
 }
-#reasons .reason-value{
-font-size: 2rem;
-font-weight: 400;
+
+#reasons .reason-value {
+    font-size: 2rem;
 }
-#reasons .reason-label{}
+
+#reasons .reason-label {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #8f8f90a6;
+}
+
+#specialists {}
+
+#specialists .specialist-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#specialists .specialist {
+    width: 100%;
+    border: 1.5px solid #dcdceb;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    color: #01528a;
+}
+
+#specialists h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5;
+}
+
+#specialists p {
+    font-size: 0.8rem;
+    font-weight: 300;
+
+}
+
+#specialists .specialist-detail {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    padding-top: 1rem;
+
+}
+
+#values {}
+
+#values .values-content {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#values .values-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 1rem;
+}
+
+#values .values-text p {
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 300;
+
+}
+
+#values .values-text .values-detail {
+    padding: 1.5rem;
+}
+
+#values .values-detail .value {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#values .value p {
+    background-image: url('../img/bullet-values.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 1.5rem;
+    font-weight: 500;
+
+}
+
+footer {
+    background-color: #0889d4;
+    color: #ffffff;
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+footer .footer-company p {
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+footer .footer-brand {
+    background-image: url('../img/logo_imobiliaria_branca.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 2rem;
+    padding-left: 2.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+footer .footer-company {
+    width: 450px;
+}
+
+footer .footer-menu {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+footer .footer-menu-title {
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+footer .footer-menu-li {
+    margin-bottom: 0.5rem;
+
+}
+
+footer .footer ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+footer .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-menu a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-social {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+footer .footer-social span {
+    background-repeat: no-repeat;
+    position: center;
+    padding: 1rem;
+}
+
+footer .footer-social .facebook {
+    background-image: url('../img/icon-facebook.svg');
+}
+
+footer .footer-social .twitter {
+    background-image: url('../img/icon-twitter.svg');
+}
+
+footer .footer-social .instagram {
+    background-image: url('../img/icon-instagram.svg');
+}
+
+footer .footer-social .linkedin {
+    background-image: url('../img/icon-linkedin.svg');
+}
+
+footer .footer-copyright p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 1.5rem;
+}
